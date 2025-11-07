@@ -1,0 +1,23 @@
+.motions {
+  margin-bottom: 5em;
+  margin-top: 6em;
+  @media (max-width: 768px) {
+    padding: 3em 0em;
+    margin-bottom: 1.2em;
+  }
+}
+
+.marq {
+  // margin-bottom: 3em;
+  display: flex;
+
+  img {
+    width: 120px;
+    overflow: hidden;
+    margin-left: 5em;
+    @media (max-width: 768px) {
+      width: 60px;
+      margin-left: 2.5em;
+    }
+  }
+}

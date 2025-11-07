@@ -1,0 +1,41 @@
+.text-type {
+  display: block; /* Changed from inline-block to block */
+  white-space: nowrap;
+  color: rgb(113, 255, 113);
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
+  background: transparent;
+  font-size: 40px;
+  padding-bottom: 1.1em;
+  max-width: 100%;
+  width: fit-content; /* Add this */
+  padding-top: 20px;
+  background: transparent !important;
+}
+
+.text-type-container {
+  position: relative;
+  z-index: 2;
+  background: transparent !important;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .text-type {
+    position: relative;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 1.5em 1em;
+    text-align: center;
+    background: transparent;
+  }
+}

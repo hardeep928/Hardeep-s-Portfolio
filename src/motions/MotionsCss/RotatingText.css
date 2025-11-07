@@ -1,0 +1,46 @@
+.text-rotate {
+  display: inline-flex;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.text-rotate-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.text-rotate-word {
+  display: inline-flex;
+  background-color: rgb(118, 77, 255);
+  padding: 0em 20px 0em 20px;
+}
+@media (max-width: 768px) {
+  .text-rotate-word {
+    padding: 0 20px;
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+  }
+}
+
+.text-rotate-lines {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-rotate-element {
+  display: inline-block;
+  background: transparent;
+}
+
+.text-rotate-space {
+  white-space: pre;
+}

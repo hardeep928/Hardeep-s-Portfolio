@@ -1,0 +1,25 @@
+.motions {
+  margin-bottom: 5em;
+  margin-top: 6em;
+}
+@media (max-width: 768px) {
+  .motions {
+    padding: 3em 0em;
+    margin-bottom: 1.2em;
+  }
+}
+
+.marq {
+  display: flex;
+}
+.marq img {
+  width: 120px;
+  overflow: hidden;
+  margin-left: 5em;
+}
+@media (max-width: 768px) {
+  .marq img {
+    width: 60px;
+    margin-left: 2.5em;
+  }
+}/*# sourceMappingURL=skills.css.map */

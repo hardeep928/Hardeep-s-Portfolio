@@ -1,0 +1,18 @@
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+}
+
+@media screen and (max-width: 720px) {
+  .particles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* centers vertically */
+    text-align: center;
+    height: 100vh; /* full viewport height */
+    padding: 0;
+    margin: 0;
+  }
+}
