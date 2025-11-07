@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../../CSS/Tab.css";
+import "../../CSS/tab.css";
 import { FaGraduationCap, FaBriefcase, FaHeart } from "react-icons/fa";
 
 const Tab = () => {
@@ -117,3 +117,4 @@ const Tab = () => {
 };
 
 export default Tab;
+
