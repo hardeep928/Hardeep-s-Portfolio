@@ -37,7 +37,7 @@ const Tab = () => {
     {
       title: "United Club of Developers",
       description:
-        "Worked as a Frontend Developer Intern and Video Editor for 4 months.",
+        "Worked as a Video Editor for 4 months, learning to handle video editors- Filmora, VSDC and DaVinci",
     },
     {
       title: "Lazarus Performing Arts",
@@ -117,4 +117,5 @@ const Tab = () => {
 };
 
 export default Tab;
+
 
