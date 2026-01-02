@@ -6,6 +6,7 @@ import Workout from "../assets/Workout.png";
 import Portfolio from "../assets/Portfolio.png";
 import MySmartList from "../assets/MySmartList.png";
 import DynamicPortfolio from "../assets/DynamicPortfolio.png";
+import ShopO from "../assets/ShopO.png";
 
 const Projects = () => {
   const allProjects = [
@@ -48,6 +49,14 @@ const Projects = () => {
       tech: "HTML5, Tailwind CSS, SCSS, React.js, React Bits, NPM, React Icons",
       link: "",
       image: `${DynamicPortfolio}`,
+    },
+    {
+      title: "ShopO",
+      description:
+        "ShopO is the full MERN stack website to order clothes. I've taken help of AI to build the backend. After building, I've connected it with the Frontend by taking care of each and every rule of making a website and implemented things so that it can achieve SEO easily, if targeted for bigger audience in future. I've used Vercel for Frontend Deployment and Render for Backend Deployment.",
+      tech: "HTML5, CSS, React.js, NPM, Node.JS, MongoDB, Express.js",
+      link: "https://shop-o-znfl.vercel.app/",
+      image: `${ShopO}`,
     },
   ];
 
