@@ -4,6 +4,7 @@ import "../../CSS/home.css";
 import userimg from "../assets/Profile.jpg";
 import Particles from "../motions/Particles";
 import TextType from "../motions/TextType";
+import Resume from "../assets/Resume.pdf";
 
 const Home = ({ navigateTo }) => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -86,12 +87,9 @@ const Home = ({ navigateTo }) => {
             >
               View Projects
             </motion.button>
-            <button
-              className="button-touch"
-              onClick={() => navigateTo("contact")}
-            >
-              Get in Touch
-            </button>
+            <a href={Resume} target="_blank">
+              <button className="button-touch">View Resume</button>
+            </a>
           </div>
         </div>
 
