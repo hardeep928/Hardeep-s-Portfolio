@@ -88,7 +88,7 @@ const Projects = () => {
               </p>
               <p>
                 <a href={projDet.link} target="_blank">
-                  <span style={{ color: "#21FFFF" }}> Link to Discover</span>
+                  <span style={{ color: "#21FFFF" }}>Link to Discover</span>
                 </a>
               </p>
             </div>
